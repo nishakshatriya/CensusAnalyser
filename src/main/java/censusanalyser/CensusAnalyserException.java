@@ -3,7 +3,7 @@ package censusanalyser;
 public class CensusAnalyserException extends Exception {
 
     enum ExceptionType {
-        CENSUS_FILE_PROBLEM
+        WRONG_DELIMTER_PROBLEM, WRONG_FILE_TYPE, WRONG_HEADER_PROBLEM, UNABLE_TO_PARSE, CENSUS_FILE_PROBLEM
     }
 
     ExceptionType type;
@@ -13,8 +13,4 @@ public class CensusAnalyserException extends Exception {
         this.type = type;
     }
 
-    public CensusAnalyserException(String message, ExceptionType type, Throwable cause) {
-        super(message, cause);
-        this.type = type;
-    }
 }
