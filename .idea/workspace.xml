@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c80ee4f-b49f-4760-94c9-81f9af2ef2aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/censusanalyser/CSVStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/censusanalyser/CensusAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/censusanalyser/CensusAnalyser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/censusanalyser/CensusAnalyserException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/censusanalyser/CensusAnalyserException$ExceptionType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/censusanalyser/CensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/censusanalyser/CensusAnalyserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/censusanalyser.CensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/censusanalyser.CensusAnalyserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/censusanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/censusanalyser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-censusanalyser.CensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-censusanalyser.CensusAnalyserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,12 +47,12 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="17" column="151" selection-start-line="17" selection-start-column="151" selection-end-line="17" selection-end-column="151" />
+              <caret line="134" column="58" lean-forward="true" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -105,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -138,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
+            <state relative-caret-position="240">
+              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/test/resources/CensusHeader.csv" />
         <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CSVStates.java" />
         <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" />
       </list>
     </option>
   </component>
@@ -301,12 +278,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongDelimiter_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_WithWrongDelimiter_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -321,12 +298,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongFile_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_WithWrongFile_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -341,12 +318,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongHeader_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords&quot;" />
+        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_WithWrongHeader_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -361,12 +338,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CensusAnalyserTest.givenStateCensusCSVFileReturnsCorrectRecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongType_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusCSVFileReturnsCorrectRecords&quot;" />
+        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_WithWrongType_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -384,10 +361,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.CensusAnalyserTest" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusCSVFileReturnsCorrectRecords" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" />
+        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_WithWrongHeader_ShouldThrowException" />
+        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_WithWrongDelimiter_ShouldThrowException" />
+        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_WithWrongType_ShouldThrowException" />
+        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_WithWrongFile_ShouldThrowException" />
       </list>
     </recent_temporary>
   </component>
@@ -405,34 +382,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 21m 50s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest - 2020.01.06 at 14h 31m 59s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 22m 17s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 25m 28s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongHeader_ShouldThrowException - 2020.01.06 at 14h 25m 59s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongHeader_ShouldThrowException - 2020.01.06 at 14h 28m 22s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongHeader_ShouldThrowException - 2020.01.06 at 14h 28m 42s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 29m 29s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusCSVFileReturnsCorrectRecords - 2020.01.06 at 14h 30m 43s.xml">
+    <history-entry file="CensusAnalyserTest_givenStateCensusCSVFileReturnsCorrectRecords - 2020.01.06 at 14h 42m 04s.xml">
       <configuration name="CensusAnalyserTest.givenStateCensusCSVFileReturnsCorrectRecords" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndianCensusCSVFileReturnsCorrectRecords - 2020.01.06 at 14h 31m 06s.xml">
-      <configuration name="CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_WithWrongFile_ShouldThrowException - 2020.01.06 at 14h 42m 08s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongFile_ShouldThrowException" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest - 2020.01.06 at 14h 31m 59s.xml">
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 42m 13s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_WithWrongType_ShouldThrowException - 2020.01.06 at 14h 43m 06s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongType_ShouldThrowException" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_WithWrongDelimiter_ShouldThrowException - 2020.01.06 at 14h 43m 12s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongDelimiter_ShouldThrowException" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_WithWrongHeader_ShouldThrowException - 2020.01.06 at 14h 43m 17s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_WithWrongHeader_ShouldThrowException" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest - 2020.01.06 at 14h 43m 26s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest - 2020.01.06 at 14h 44m 14s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CensusAnalyserTest - 2020.01.06 at 15h 03m 20s.xml">
       <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -503,15 +480,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java</url>
-          <line>66</line>
+          <line>70</line>
           <properties class="censusanalyser.CensusAnalyserTest" method="givenIndiaCensusData_WithWrongHeader_ShouldThrowException">
             <option name="EMULATED" value="true" />
           </properties>
@@ -525,16 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,10 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/IndiaCensusCSV.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -566,6 +527,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="134" column="58" lean-forward="true" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCensusData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -573,24 +548,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/IndiaCensusCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="151" selection-start-line="17" selection-start-column="151" selection-end-line="17" selection-end-column="151" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
