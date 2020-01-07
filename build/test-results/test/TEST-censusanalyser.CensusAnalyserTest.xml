@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="censusanalyser.CensusAnalyserTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-01-06T13:38:17" hostname="admin1-HP-EliteBook-Folio-9480m" time="0.251">
+<testsuite name="censusanalyser.CensusAnalyserTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-01-07T04:32:43" hostname="admin1-HP-EliteBook-Folio-9480m" time="114.872">
   <properties/>
-  <testcase name="givenStateCensusData_WithWrongHeader_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.094"/>
-  <testcase name="givenIndianCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.148"/>
-  <testcase name="givenStateCensusCSVFileReturnsCorrectRecords" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
-  <testcase name="givenIndiaCensusData_WithWrongDelimiter_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.001"/>
-  <testcase name="givenStateCensusData_WithWrongFile_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.002"/>
-  <testcase name="givenStateCensusData_WithWrongType_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenIndiaCensusData_WithWrongHeader_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenIndiaCensusData_WithWrongFile_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenStateCensusData_WithWrongDelimiter_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
-  <testcase name="givenIndiaCensusData_WithWrongType_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="0.0"/>
+  <testcase name="givenStateCensusData_WithWrongHeader_ShouldThrowException" classname="censusanalyser.CensusAnalyserTest" time="114.872">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

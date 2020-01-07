@@ -7,7 +7,7 @@ import java.io.Reader;
 import java.util.Iterator;
 
 public class OpenCSVBuilder implements ICSVBuilder{
-    public <E>Iterator <E>getCSVIterator(Reader reader, Class<E> indiaCensusCSVClass) throws CensusAnalyserException {
+    public <E>Iterator <E>getCSVIterator(Reader reader, Class<E> indiaCensusCSVClass) throws CSVBuilderException {
         try {
 
             CsvToBeanBuilder<E> csvToBeanBuilder = new CsvToBeanBuilder<>(reader);
@@ -16,7 +16,7 @@ public class OpenCSVBuilder implements ICSVBuilder{
             CsvToBean<E> csvToBean = csvToBeanBuilder.build();
             return csvToBean.iterator();
         } catch (IllegalArgumentException e) {
-            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.UNABLE_TO_PARSE);
+            throw new CSVBuilderException(e.getMessage(), CSVBuilderException.ExceptionType.UNABLE_TO_PARSE);
         }
     }
 }
