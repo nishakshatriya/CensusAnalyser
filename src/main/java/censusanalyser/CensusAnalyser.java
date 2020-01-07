@@ -1,6 +1,8 @@
 package censusanalyser;
 
 
+import com.bridgelabz.*;
+
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
