@@ -1,12 +1,19 @@
 package censusanalyser;
 
 
-import com.bridgelabz.*;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import csvFileBuilder.CSVBuilderException;
+import csvFileBuilder.CSVBuilderFactory;
+import csvFileBuilder.ICSVBuilder;
 
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.stream.StreamSupport;
 
@@ -31,6 +38,8 @@ public class CensusAnalyser {
         return namOfEateries;
     }
 
+
+
     public int loadStateCensusData(String csvFilePath) throws CensusAnalyserException {
         try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
             ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
@@ -43,6 +52,35 @@ public class CensusAnalyser {
         } catch (CSVBuilderException e) {
             throw new CensusAnalyserException(e.getMessage(), e.type.name());
         }
+    }
+
+    public ArrayList SortingIndiaCSVFile(String csvFilePath) throws CensusAnalyserException{
+        try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath)))
+        {ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
+
+            Iterator<IndiaCensusCSV> indiaCensusCSVIterator = icsvBuilder.getCSVIterator(reader, IndiaCensusCSV.class);
+            ArrayList list = new ArrayList<>();
+            while (indiaCensusCSVIterator.hasNext()) {
+                list.add(indiaCensusCSVIterator.next());
+            }
+            Collections.sort(list,new LoadObjectComparatorEx());
+            Gson prettyGson=new GsonBuilder().setPrettyPrinting().create();
+            String prettyJson=prettyGson.toJson(list);
+            System.out.println(prettyJson);
+            //System.out.println(list);
+            return list;
+        } catch (IOException e) {
+
+        } catch (CSVBuilderException e) {
+            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            throw new CensusAnalyserException(e.getMessage(),
+                    CensusAnalyserException.ExceptionType.UNABLE_TO_PARSE);
+        }catch (RuntimeException e) {
+            throw new CensusAnalyserException(e.getMessage(),
+                    CensusAnalyserException.ExceptionType.Incorrect_CSV);
+        }
+        return null;
     }
 
 }

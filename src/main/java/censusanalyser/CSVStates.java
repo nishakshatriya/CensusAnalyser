@@ -3,22 +3,22 @@ package censusanalyser;
 import com.opencsv.bean.CsvBindByName;
 
 public class CSVStates {
+    //SrNo,StateName,TIN,StateCode
 
 
-
-    @CsvBindByName(column = "State Name", required = true)
-    public int state;
+    @CsvBindByName(column = "StateName", required = true)
+    public String StateName;
 
 
     @CsvBindByName(column = "StateCode", required = true)
-    public int stateCode;
+    public String StateCode;
 
     @Override
     public String toString() {
         return "CSVStates{" +
 
-                ", state=" + state +
-                ", stateCode=" + stateCode +
+                ", StateName=" + StateName +
+                ", StateCode=" + StateCode+
                 '}';
     }
 }
