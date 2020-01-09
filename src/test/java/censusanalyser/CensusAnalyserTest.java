@@ -1,5 +1,6 @@
 package censusanalyser;
 
+import com.google.gson.Gson;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -141,67 +142,46 @@ public class CensusAnalyserTest {
 
     @Test
     public void givenStateCensusData_ShouldReturnFirstStateName() {
-        try {
-            CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(true, list.get(0).toString().contains("Andhra Pradesh"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        CensusAnalyser censusAnalyser = new CensusAnalyser();
+        String sortedCensusData = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
+        IndiaCensusCSV[] indiaCensusCSVS = new Gson().fromJson(sortedCensusData, IndiaCensusCSV[].class);
+        Assert.assertEquals("Andhra Pradesh",indiaCensusCSVS[0].state);
     }
 
     @Test
     public void givenStateCensusData_ShouldReturnLastStateName() {
-        try {
-            CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(true, list.get(28).toString().contains("West Bengal"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        CensusAnalyser censusAnalyser = new CensusAnalyser();
+        String sortedCensusData = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
+        IndiaCensusCSV[] indiaCensusCSVS = new Gson().fromJson(sortedCensusData, IndiaCensusCSV[].class);
+        Assert.assertEquals("West Bengal",indiaCensusCSVS[28].state);
     }
 
-    @Test
-    public void givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse() {
-        try {
-            CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(false, list.get(0).toString().contains("Maharashtra"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     @Test
     public void givenStateCensusData_ShouldReturnFirstStateCode() {
-        try {
-            CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(true, list.get(0).toString().contains("Andhra Pradesh"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        CensusAnalyser censusAnalyser = new CensusAnalyser();
+        String sortedCensusData = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+        CSVStates[] states = new Gson().fromJson(sortedCensusData, CSVStates[].class);
+        Assert.assertEquals("AD", states[0].StateCode);
     }
 
     @Test
     public void givenStateCensusData_ShouldReturnLastStateCode() {
-        try {
+
             CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(true, list.get(36).toString().contains("WB"));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            String sortedCensusData = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+            CSVStates [] states = new Gson().fromJson(sortedCensusData, CSVStates[].class);
+            Assert.assertEquals("WB", states[36].StateCode);
     }
 
     @Test
     public void givenStateCensusData_IfDataIncorrect_ShouldReturnFalse() {
-        try {
+         {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
-            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
-            Assert.assertEquals(false, list.get(36).toString().contains("MH"));
-        } catch (Exception e) {
-            e.printStackTrace();
+            String sortedCensusData = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+            CSVStates[] states = new Gson().fromJson(sortedCensusData, CSVStates[].class);
+            Assert.assertEquals("WB", states[36].StateCode);
+
         }
     }
 }
