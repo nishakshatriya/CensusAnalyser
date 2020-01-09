@@ -140,7 +140,7 @@ public class CensusAnalyserTest {
     }
 
     @Test
-    public void givenIndiaCensusData_ShouldReturnFirstData() {
+    public void givenStateCensusData_ShouldReturnFirstStateName() {
         try {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
             ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
@@ -151,7 +151,7 @@ public class CensusAnalyserTest {
     }
 
     @Test
-    public void givenIndiaCensusData_ShouldReturnLastData() {
+    public void givenStateCensusData_ShouldReturnLastStateName() {
         try {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
             ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
@@ -167,6 +167,39 @@ public class CensusAnalyserTest {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
             ArrayList list = censusAnalyser.SortingIndiaCSVFile(INDIA_CENSUS_CSV_FILE_PATH);
             Assert.assertEquals(false, list.get(0).toString().contains("Maharashtra"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void givenStateCensusData_ShouldReturnFirstStateCode() {
+        try {
+            CensusAnalyser censusAnalyser = new CensusAnalyser();
+            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+            Assert.assertEquals(true, list.get(0).toString().contains("Andhra Pradesh"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void givenStateCensusData_ShouldReturnLastStateCode() {
+        try {
+            CensusAnalyser censusAnalyser = new CensusAnalyser();
+            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+            Assert.assertEquals(true, list.get(36).toString().contains("WB"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void givenStateCensusData_IfDataIncorrect_ShouldReturnFalse() {
+        try {
+            CensusAnalyser censusAnalyser = new CensusAnalyser();
+            ArrayList list = censusAnalyser.SortingStateCSVFile(STATE_CENSUS_CSV_FILE_PATH);
+            Assert.assertEquals(false, list.get(36).toString().contains("MH"));
         } catch (Exception e) {
             e.printStackTrace();
         }
