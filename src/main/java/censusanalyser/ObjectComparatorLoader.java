@@ -2,7 +2,7 @@ package censusanalyser;
 
 import java.util.Comparator;
 
-public class LoadObjectComparatorEx implements Comparator {
+public class ObjectComparatorLoader implements Comparator {
     @Override
     public int compare(Object o, Object o1) {
         if (o.toString().compareTo(o1.toString()) < 0){
