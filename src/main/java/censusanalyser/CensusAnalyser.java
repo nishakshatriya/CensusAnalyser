@@ -1,7 +1,5 @@
 package censusanalyser;
 
-
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import csvFileBuilder.CSVBuilderException;
@@ -19,9 +17,7 @@ public class CensusAnalyser {
     public int loadIndiaCensusData(String csvFilePath) throws CensusAnalyserException {
         try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
            ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
-            //Iterator<IndiaCensusCSV> indiaCensusCSVIterator = icsvBuilder.getCSVIterator(reader, IndiaCensusCSV.class);
             List<IndiaCensusCSV> indiaCensusCSVList = icsvBuilder.getCSVInList(reader,IndiaCensusCSV.class);
-            //return this.getCount(indiaCensusCSVIterator);
             return indiaCensusCSVList.size();
         } catch (IOException e) {
             throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
@@ -31,14 +27,6 @@ public class CensusAnalyser {
             throw new CensusAnalyserException(e.getMessage(), e.type.name());
         }
     }
-
-//    private <E> int getCount(Iterator<E> indiaCensusCSVIterator) {
-//        Iterable<E> csvIterable = () -> indiaCensusCSVIterator;
-//        int namOfEateries = (int) StreamSupport.stream(csvIterable.spliterator(), false).count();
-//        return namOfEateries;
-//    }
-
-
 
     public int loadStateCensusData(String csvFilePath) throws CensusAnalyserException {
         try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
