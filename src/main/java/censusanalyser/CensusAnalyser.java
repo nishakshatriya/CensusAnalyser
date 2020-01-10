@@ -81,6 +81,17 @@ public class CensusAnalyser {
             System.out.println(sortedJSON);
             return sortedJSON;
     }
+    public String SortingIndiaCSVFilePopulation() throws CensusAnalyserException {
+        if(censusList == null || censusList.size()==0){
+            throw new CensusAnalyserException("NO_CENSUS_DATA", CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
+        }
+        Comparator<IndiaCensusDAO> codeCsvComparator = (obj1, obj2) -> ((obj1.population) - (obj2.population) > 0) ? -1 : 1;
+        System.out.println(codeCsvComparator);
+        Collections.sort(censusList, codeCsvComparator);
+        String sortedJson =new Gson().toJson(censusList);
+        System.out.println(sortedJson);
+        return sortedJson;
+    }
 
 }
 
