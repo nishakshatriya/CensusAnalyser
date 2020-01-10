@@ -6,13 +6,13 @@ public class CSVStates {
     //SrNo,StateName,TIN,StateCode
 
     @CsvBindByName(column = "SrNo", required = true)
-    public String SrNo;
+    public int SrNo;
 
     @CsvBindByName(column = "StateName", required = true)
     public String StateName;
 
     @CsvBindByName(column ="TIN", required = true)
-    public String TIN;
+    public int TIN;
 
 
     @CsvBindByName(column = "StateCode", required = true)
@@ -21,10 +21,10 @@ public class CSVStates {
     @Override
     public String toString() {
         return "CSVStates{" +
-                ", SrNo=" + SrNo +
-                ", StateName=" + StateName +
+                "SrNo=" + SrNo +
+                ", StateName='" + StateName + '\'' +
                 ", TIN=" + TIN +
-                ", StateCode=" + StateCode+
+                ", StateCode='" + StateCode + '\'' +
                 '}';
     }
 }
