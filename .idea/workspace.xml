@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf4549f-ae46-4342-bc24-0231dd5719c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/resources/test/IndiaStateNullFile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/IndiaStateNullFile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/censusanalyser/CensusAnalyser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/censusanalyser/CensusAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/censusanalyser/CensusAnalyserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/censusanalyser.CensusAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/censusanalyser.CensusAnalyserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/censusanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/censusanalyser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-censusanalyser.CensusAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-censusanalyser.CensusAnalyserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/IndiaStateCode.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/IndiaStateCode.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" afterDir="false" />
     </list>
@@ -16,8 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -35,50 +56,33 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="216" column="5" lean-forward="true" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradlew.bat">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/CSVBuilderException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -91,28 +95,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/ICSVBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/OpenCSVBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="225">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="109">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/IndiaCensusDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateNullFile.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCensusData.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -138,8 +169,10 @@
         <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CSVStates.java" />
         <option value="$PROJECT_DIR$/src/main/java/censusanalyser/ObjectComparatorLoader.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/resources/IndiaStateNullFile.csv" />
         <option value="$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/censusanalyser/IndiaCensusDAO.java" />
       </list>
     </option>
   </component>
@@ -229,7 +262,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/csvFileBuilder/build/libs/csvFileBuilder-1.0-SNAPSHOT.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -254,114 +287,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CensusAnalyserTest">
-    <configuration name="CensusAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.CensusAnalyserTest">
+    <configuration name="CensusAnalyserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CensusAnalyser.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="censusanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="censusanalyser" />
+      <option name="MAIN_CLASS_NAME" value="censusanalyser.CensusAnalyserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CensusAnalyserTest.givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="CensusAnalyserTest.WhenNullDataRetrived_ShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CensusAnalyser.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="censusanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="censusanalyser" />
+      <option name="MAIN_CLASS_NAME" value="censusanalyser.CensusAnalyserTest" />
+      <option name="METHOD_NAME" value="WhenNullDataRetrived_ShouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CensusAnalyserTest.givenStateCensusData_IfDataIncorrect_ShouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_IfDataIncorrect_ShouldReturnFalse&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CensusAnalyser.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="censusanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="censusanalyser" />
+      <option name="MAIN_CLASS_NAME" value="censusanalyser.CensusAnalyserTest" />
+      <option name="METHOD_NAME" value="givenIndianCensusCSVFileReturnsCorrectRecords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CensusAnalyser.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="censusanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="censusanalyser" />
+      <option name="MAIN_CLASS_NAME" value="censusanalyser.CensusAnalyserTest" />
+      <option name="METHOD_NAME" value="givenStateCensusData_ShouldReturnFirstStateName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;censusanalyser.CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CensusAnalyser.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="censusanalyser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="censusanalyser" />
+      <option name="MAIN_CLASS_NAME" value="censusanalyser.CensusAnalyserTest" />
+      <option name="METHOD_NAME" value="givenStateCensusData_ShouldReturnLastStateCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CensusAnalyserTest" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse" />
-        <item itemvalue="Gradle.CensusAnalyserTest.givenStateCensusData_IfDataIncorrect_ShouldReturnFalse" />
+        <item itemvalue="JUnit.CensusAnalyserTest" />
+        <item itemvalue="JUnit.CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" />
+        <item itemvalue="JUnit.CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateCode" />
+        <item itemvalue="JUnit.CensusAnalyserTest.WhenNullDataRetrived_ShouldThrowException" />
+        <item itemvalue="JUnit.CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" />
       </list>
     </recent_temporary>
   </component>
@@ -379,53 +391,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnLastStateName - 2020.01.09 at 11h 12m 06s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongDelimiter_ShouldThrowException - 2020.01.10 at 12h 25m 42s.xml">
+      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongDelimiter_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest - 2020.01.09 at 11h 12m 35s.xml">
-      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_WithWrongHeader_ShouldThrowException - 2020.01.10 at 12h 25m 48s.xml">
+      <configuration name="CensusAnalyserTest.givenIndiaCensusData_WithWrongHeader_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest - 2020.01.09 at 11h 28m 33s.xml">
-      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnFirstStateName - 2020.01.10 at 12h 26m 08s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnFirstStateName - 2020.01.09 at 11h 30m 10s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest - 2020.01.10 at 12h 28m 05s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse - 2020.01.09 at 11h 30m 28s.xml">
-      <configuration name="CensusAnalyserTest.givenIndiaCensusData_IfDataIncorrectAtFirstIndex_ShouldReturnFalse" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnFirstStateName - 2020.01.10 at 12h 48m 14s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnFirstStateName - 2020.01.09 at 11h 31m 03s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest - 2020.01.10 at 12h 48m 32s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnFirstStateName - 2020.01.09 at 11h 31m 59s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnFirstStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_WhenNullDataRetrived_ShouldThrowException - 2020.01.10 at 12h 55m 08s.xml">
+      <configuration name="CensusAnalyserTest.WhenNullDataRetrived_ShouldThrowException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnLastStateName - 2020.01.09 at 11h 32m 30s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnLastStateCode - 2020.01.10 at 12h 55m 47s.xml">
+      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest_givenStateCensusData_ShouldReturnLastStateName - 2020.01.09 at 11h 33m 23s.xml">
-      <configuration name="CensusAnalyserTest.givenStateCensusData_ShouldReturnLastStateName" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest - 2020.01.10 at 13h 09m 19s.xml">
+      <configuration name="CensusAnalyserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CensusAnalyserTest - 2020.01.09 at 16h 17m 34s.xml">
-      <configuration name="CensusAnalyserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="CensusAnalyserTest_givenIndianCensusCSVFileReturnsCorrectRecords - 2020.01.10 at 13h 11m 26s.xml">
+      <configuration name="CensusAnalyserTest.givenIndianCensusCSVFileReturnsCorrectRecords" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22346368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23144454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32899022" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37947884" />
@@ -433,45 +442,50 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24980047" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="3" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23144454" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.37947884" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
@@ -489,6 +503,14 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java</url>
+          <line>194</line>
+          <properties class="censusanalyser.CensusAnalyserTest" method="WhenNullDataRetrived_ShouldThrowException">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -503,22 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/StateHeaderFile.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -528,18 +537,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCensusData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/ObjectComparatorLoader.java">
@@ -608,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/CSVBuilderFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/ICSVBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -622,20 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/OpenCSVBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -645,20 +622,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/CSVBuilderFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/csvBuilder/build/libs/csvBuilder-1.0-SNAPSHOT.jar!/OpenCSVBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateNullFile.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCensusData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/IndiaStateCode.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/censusanalyser/CensusAnalyserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="216" column="5" lean-forward="true" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+        <state relative-caret-position="109">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/CensusAnalyser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/censusanalyser/IndiaCensusDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
