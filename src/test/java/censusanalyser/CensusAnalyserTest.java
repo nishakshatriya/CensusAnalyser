@@ -258,4 +258,12 @@ public class CensusAnalyserTest {
         IndiaCensusCSV [] indiaCensusCSVS = new Gson().fromJson(sortedCensusData,IndiaCensusCSV[].class);
         Assert.assertEquals(3702, indiaCensusCSVS[28].areaInSqKm);
     }
+
+    @Test
+    public void givenUSCensusData_ShouldLoadCorrectData() throws CensusAnalyserException {
+        CensusAnalyser censusAnalyser = new CensusAnalyser();
+        int totalRecords=censusAnalyser.loadUSCensusData("/home/admin1/CensusAnalyzerProblem/CensusAnalyser/src/test/resources/USCensusData.csv");
+        System.out.println(totalRecords);
+        Assert.assertEquals(51,totalRecords);
+    }
 }

@@ -15,11 +15,13 @@ import java.util.stream.Collectors;
 public class CensusAnalyser {
     List<IndiaCensusDAO> censusList = null;
     List<CSVStateDAO> statesList = null;
+    List<USCensusDAO> usCensusList = null;
 
 
     public CensusAnalyser() {
         this.censusList = new ArrayList<IndiaCensusDAO>();
         this.statesList = new ArrayList<CSVStateDAO>();
+        this.usCensusList = new ArrayList<USCensusDAO>();
     }
 
     public int loadIndiaCensusData(String csvFilePath) throws CensusAnalyserException {
@@ -45,11 +47,24 @@ public class CensusAnalyser {
             ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
             List<CSVStates> csvStatesList = icsvBuilder.getCSVInList(reader, CSVStates.class);
             csvStatesList.stream().filter(stateCensusData -> statesList.add(new CSVStateDAO(stateCensusData))).collect(Collectors.toList());
-//            for (int i = 0; i < csvStatesList.size(); i++) {
-//                this.statesList.add(new CSVStateDAO(csvStatesList.get(i)));
-//            }
             System.out.println(statesList);
             return statesList.size();
+        } catch (IOException e) {
+            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
+        } catch (RuntimeException e) {
+            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.Incorrect_CSV);
+        } catch (CSVBuilderException e) {
+            throw new CensusAnalyserException(e.getMessage(), e.type.name());
+        }
+    }
+
+    public int loadUSCensusData(String csvFilePath) throws CensusAnalyserException {
+        try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
+            ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
+            List<USCensusCSV> usCensusCSVList = icsvBuilder.getCSVInList(reader, USCensusCSV.class);
+            usCensusCSVList.stream().filter(USCensusData -> usCensusList.add(new USCensusDAO(USCensusData))).collect(Collectors.toList());
+            System.out.println(usCensusList);
+            return usCensusList.size();
         } catch (IOException e) {
             throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
         } catch (RuntimeException e) {
