@@ -48,8 +48,8 @@ public class CensusAnalyserTest {
         }
     }
 
-    /*@Test
-    public void givenIndiaCensusData_WithWrongType_ShouldThrowException() {
+    @Test
+    public void givenIndiaCensusData_WithWrongType_ShouldThrowException() throws IOException {
         try {
             CensusAnalyser censusAnalyser = new CensusAnalyser();
             ExpectedException exceptionRule = ExpectedException.none();
@@ -58,7 +58,7 @@ public class CensusAnalyserTest {
         } catch (CensusAnalyserException e) {
             Assert.assertEquals(CENSUS_FILE_PROBLEM, e.type);
         }
-    }*/
+    }
 
     @Test
     public void givenIndiaCensusData_WithWrongDelimiter_ShouldThrowException() throws IOException, CSVBuilderException {

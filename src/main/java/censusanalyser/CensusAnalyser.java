@@ -69,22 +69,6 @@ public class CensusAnalyser {
         }
     }
 
-//    public int loadUSCensusData(String csvFilePath) throws CensusAnalyserException {
-//        try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
-//            ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
-//            List<USCensusCSV> CensusCSVList = icsvBuilder.getCSVInList(reader, USCensusCSV.class);
-//            CensusCSVList.stream().filter(CensusData -> censusList.add(new CensusDAO(CensusData))).collect(Collectors.toList());
-//            System.out.println(censusList);
-//            return censusList.size();
-//        } catch (IOException e) {
-//            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
-//        } catch (RuntimeException e) {
-//            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.Incorrect_CSV);
-//        } catch (CSVBuilderException e) {
-//            throw new CensusAnalyserException(e.getMessage(), e.type.name());
-//        }
-//    }
-
     public String SortingIndiaCSVFile() throws CensusAnalyserException {
         if (censusList == null || censusList.size() == 0) {
             throw new CensusAnalyserException("NO_CENSUS_DATA", CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
