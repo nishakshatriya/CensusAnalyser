@@ -12,6 +12,7 @@ public class CensusDAO {
     public float populationDensity;
     public float housingDensity;
     public String stateId;
+    public String stateCode;
 
 
     public CensusDAO(IndiaCensusCSV indiaCensusCSV) {
@@ -23,7 +24,7 @@ public class CensusDAO {
 
 
     public CensusDAO(USCensusCSV usCensusCSV) {
-        stateId = usCensusCSV.stateId;
+        stateCode = usCensusCSV.stateId;
         state = usCensusCSV.state;
         population = usCensusCSV.population;
         housingUnits = usCensusCSV.housingUnits;
@@ -34,4 +35,9 @@ public class CensusDAO {
         housingDensity=usCensusCSV.housingDensity;
 
     }
+
+    public String getStateCode(){
+        return stateCode;
+    }
+
 }
