@@ -6,6 +6,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class CensusAnalyser {
+
+    public enum Country{
+        INDIA, US;
+    }
+
     Map<String,CensusDAO> censusList=null;
     Map<String,CSVStateDAO> statesList = null;
 
@@ -14,12 +19,27 @@ public class CensusAnalyser {
         this.statesList= new TreeMap<>();
     }
 
-    public int loadIndiaCensusData(String... csvFilePath) throws CensusAnalyserException, IOException {
+//    public <E> int loadCensusData (Country country, String... csvFilePath) throws CensusAnalyserException, IOException {
+//        if (country.equals(CensusAnalyser.Country.INDIA)) {
+//            return this.loadIndiaCensusData(IndiaCensusCSV.class, csvFilePath);
+//        } else if (country.equals(CensusAnalyser.Country.US)) {
+//            return this.loadUSCensusData(USCensusCSV.class, csvFilePath[0]);
+//        } else {
+//            throw new CensusAnalyserException("INCORRECT_COUNTRY", CensusAnalyserException.ExceptionType.INCORRECT_COUNTRY);
+//        }
+//    }
+
+    public int loadCensusData(Country country, String...csvFilePath) throws CensusAnalyserException, IOException {
+        censusList = AdapterFactory.loadCensusData(country, csvFilePath);
+        return censusList.size();
+    }
+
+    public int loadIndiaCensusData(Class csvClass, String... csvFilePath) throws CensusAnalyserException, IOException {
         censusList=new CensusLoader().loadCensusData(IndiaCensusCSV.class,csvFilePath);
         return  censusList.size();
     }
 
-    public int loadUSCensusData(String... csvFilePath) throws CensusAnalyserException, IOException {
+    public int loadUSCensusData(Class csvClass, String... csvFilePath) throws CensusAnalyserException, IOException {
         censusList=new CensusLoader().loadCensusData(USCensusCSV.class,csvFilePath);
         return censusList.size();
     }

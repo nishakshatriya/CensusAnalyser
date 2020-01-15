@@ -14,14 +14,12 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.StreamSupport;
 
+public class CensusAdapter {
 
-public class CensusLoader extends CensusAdapter {
     Map<String,CensusDAO> censusDAOMap=new TreeMap<>();
-
     public<E> Map<String,CensusDAO> loadCensusData(Class<E> CensusCSVClass, String... csvFilePath) throws CensusAnalyserException {
-
         try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath[0]))) {
-                ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
+            ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
             if (CensusCSVClass.getName().equals("censusanalyser.IndiaCensusCSV")) {
                 List<E> CensusCSVList = icsvBuilder.getCSVInList(reader, CensusCSVClass);
                 StreamSupport.stream(CensusCSVList.spliterator(),false)
@@ -38,13 +36,13 @@ public class CensusLoader extends CensusAdapter {
             this.loadStateCensusData(csvFilePath[1],censusDAOMap);
             return censusDAOMap;
 
-            } catch (IOException e) {
-                throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
-            } catch (RuntimeException e) {
-                throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.Incorrect_CSV);
-            } catch (CSVBuilderException e) {
-                throw new CensusAnalyserException(e.getMessage(), e.type.name());
-            }
+        } catch (IOException e) {
+            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
+        } catch (RuntimeException e) {
+            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.Incorrect_CSV);
+        } catch (CSVBuilderException e) {
+            throw new CensusAnalyserException(e.getMessage(), e.type.name());
+        }
     }
 
     public int loadStateCensusData(String csvFilePath, Map<String, CensusDAO> censusDAOMap) throws CensusAnalyserException {
@@ -66,5 +64,5 @@ public class CensusLoader extends CensusAdapter {
         }
     }
 
-}
+    }
 
