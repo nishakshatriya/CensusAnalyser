@@ -36,10 +36,7 @@ public abstract class CensusAdapter {
                         .map(USCensusCSV.class::cast)
                         .forEach(csv -> censusDAOMap.put(csv.state, new CensusDAO(csv)));
             }
-//            if (csvFilePath.length == 1)return censusDAOMap;
-//            this.loadStateCensusData(csvFilePath[1],censusDAOMap);
           return censusDAOMap;
-
         } catch (IOException e) {
             throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
         } catch (RuntimeException e) {
@@ -47,28 +44,7 @@ public abstract class CensusAdapter {
         } catch (CSVBuilderException e) {
             throw new CensusAnalyserException(e.getMessage(), e.type.name());
         }
-       // return censusDAOMap;
     }
 }
 
-//    public int loadStateCensusData(String csvFilePath, Map<String, CensusDAO> censusDAOMap) throws CensusAnalyserException {
-//        try (Reader reader = Files.newBufferedReader(Paths.get(csvFilePath))) {
-//            ICSVBuilder icsvBuilder = CSVBuilderFactory.CreateCSVBuilder();
-//            Iterator<CSVStates> statesIterator = icsvBuilder.getCSVIterator(reader, CSVStates.class);
-//            Iterable<CSVStates> csvStatesIterable = () -> statesIterator;
-//            StreamSupport.stream(csvStatesIterable.spliterator(),false)
-//                    .filter(CSVStateList->censusDAOMap.get(CSVStateList.StateName)!=null)
-//                    .forEach(CSVStateList ->censusDAOMap.get(CSVStateList.StateName).stateCode=CSVStateList.StateCode);
-//            System.out.println(censusDAOMap);
-//            return censusDAOMap.size();
-//        } catch (IOException e) {
-//            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.CENSUS_FILE_PROBLEM);
-//        } catch (RuntimeException e) {
-//            throw new CensusAnalyserException(e.getMessage(), CensusAnalyserException.ExceptionType.Incorrect_CSV);
-//        } catch (CSVBuilderException e) {
-//            throw new CensusAnalyserException(e.getMessage(), e.type.name());
-//        }
-//    }
-
-//    }
 
