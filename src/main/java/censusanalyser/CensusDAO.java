@@ -11,7 +11,7 @@ public class CensusDAO {
     public float landArea;
     public float populationDensity;
     public float housingDensity;
-    public String stateId;
+  //  public String stateId;
     public String stateCode;
 
 
@@ -40,4 +40,13 @@ public class CensusDAO {
         return stateCode;
     }
 
+//    public IndiaCensusCSV getIndiaCensusData(){
+//        return new IndiaCensusCSV(state,population,(int)populationDensity,(int) totalArea);
+//    }
+
+    public Object getCensusDTO(CensusAnalyser.Country country){
+        if(country.equals(CensusAnalyser.Country.US))
+            return new USCensusCSV(state,stateCode,population,populationDensity,totalArea);
+        return new IndiaCensusCSV(state,population,areaInSqKm,densityPerSqKm);
+    }
 }
